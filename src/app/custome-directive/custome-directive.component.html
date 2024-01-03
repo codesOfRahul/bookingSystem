@@ -1,7 +1,7 @@
 <div class="container mt-5">
-    <button type="button" class="btn btn-primary" (click)="toggleTable()">Toggle Table</button>
+    
   
-    <table appCustomeDirective [class.hidden]="isTableHidden">
+    <table class="table" appCustomeDirective [class.hidden]="isTableHidden">
       <thead>
         <tr>
           <th>EMP Id</th>
@@ -22,7 +22,33 @@
           <td>123 Main St</td>
           <td>$70,000</td>
         </tr>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>Developer</td>
+            <td>New York</td>
+            <td>123 Main St</td>
+            <td>$70,000</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>Developer</td>
+            <td>New York</td>
+            <td>123 Main St</td>
+            <td>$70,000</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>Developer</td>
+            <td>New York</td>
+            <td>123 Main St</td>
+            <td>$70,000</td>
+          </tr>
         <!-- Add more rows as needed -->
+        
       </tbody>
     </table>
+    <button type="button"  (click)="toggleTable()">hide</button>
   </div>

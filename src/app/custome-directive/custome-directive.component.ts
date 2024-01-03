@@ -7,7 +7,7 @@ import { Component, ElementRef, Renderer2 ,Input, OnInit} from '@angular/core';
 })
 export class CustomeDirectiveComponent implements OnInit {
   @Input() spacing = '4px';
-  isTableHidden = false;
+  isTableHidden = true;
 
   constructor(private el: ElementRef, private renderer: Renderer2) {}
 

@@ -1,0 +1,41 @@
+.hidden {
+    display: none;
+  }
+
+  .container {
+    padding-top: 20px;
+  }
+
+  .table {
+    border-collapse: separate;
+    border-spacing: 4px; /* Less space between borders */
+    width: 100%;
+  }
+
+  .table, .table th, .table td {
+    border: 2px double black; /* Black double border for the table and cells */
+  }
+
+  .table th {
+    background-color: #fffb00; /* Yellow background for table headings */
+  }
+
+  .table tbody tr {
+    border-bottom: 2px double black; /* Black double border between rows */
+  }
+
+  .table tbody tr:last-child {
+    border-bottom: none; /* Remove bottom border for the last row */
+  }
+
+  .table tbody tr:nth-child(even) {
+    background-color: #00fa3a; /* Green background for even rows */
+  }
+
+  .table tbody tr:nth-child(odd) {
+    background-color: #66ff00; /* White background for odd rows */
+  }
+
+  .hidden {
+    display: none;
+  }
