@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bus Reservation Form</title>
+  <!-- Bootstrap CSS (make sure you have the Bootstrap library included) -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <div class="card" style="margin-top: -40px;">
+      <div class="card-body">
+        <h2 class="card-title">Bus Reservation Form</h2>
+
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="roomType" class="form-label">Room/Suite Type</label>
+            <select id="roomType" class="form-select">
+              <option selected>Choose...</option>
+              <option value="single">Single Room</option>
+              <option value="double">Double Room</option>
+              <option value="suite">Suite</option>
+            </select>
+          </div>
+
+          <div class="col-md-6">
+            <label for="numRooms" class="form-label">Number of Room/Suite</label>
+            <select id="numRooms" class="form-select">
+              <option selected>Choose...</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+
+          <div class="col-md-6">
+            <label for="numPersons" class="form-label">Number of Persons</label>
+            <select id="numPersons" class="form-select">
+              <option selected>Choose...</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+
+          <div class="col-md-6">
+            <label for="numChildren" class="form-label">Number of Children</label>
+            <select id="numChildren" class="form-select">
+              <option selected>Choose...</option>
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+            </select>
+          </div>
+
+          <div class="col-md-6">
+            <label for="restaurantFacilities" class="form-label">Restaurant Facilities?</label>
+            <select id="restaurantFacilities" class="form-select">
+              <option selected>Choose...</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+
+          <div class="col-12">
+            <label>Total Cost ($):</label>
+            <button type="button" class="btn purple-btn" onclick="calculateCost()">0</button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  
+
+</body>
+</html>

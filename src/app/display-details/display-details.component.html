@@ -1,0 +1,53 @@
+<div class="container mt-5">
+    
+
+    <table class="table" [class.hidden]="isTableHidden">
+      <thead>
+        <tr>
+          <th>EMP Id</th>
+          <th>EMP Name</th>
+          <th>Designation</th>
+          <th>Location</th>
+          <th>Address</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Add your employee data here -->
+        <tr>
+          <td>1</td>
+          <td>John Doe</td>
+          <td>Developer</td>
+          <td>New York</td>
+          <td>123 Main St</td>
+          <td>$70,000</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>Developer</td>
+            <td>New York</td>
+            <td>123 Main St</td>
+            <td>$70,000</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>Developer</td>
+            <td>New York</td>
+            <td>123 Main St</td>
+            <td>$70,000</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>Developer</td>
+            <td>New York</td>
+            <td>123 Main St</td>
+            <td>$70,000</td>
+          </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+    <button type="button" (click)="toggleTable()">hide</button>
+  </div>

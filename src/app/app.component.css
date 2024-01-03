@@ -1,0 +1,68 @@
+.bgClass{
+    background-color: rgba(49, 47, 47, 0.74);
+}
+
+a:hover{
+
+background-color: black;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #199ac5;
+  color: #f0f8ff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.container2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+   /* Your custom styles can go here if needed */
+   * {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 10px; /* Add right margin for spacing */
+}
+
+.sub-item1,
+.sub-item2,
+.sub-item3,
+.sub-item4 {
+    margin-bottom: 20px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+}
+
+.sub-item1 a {
+    display: block;
+    line-height: 1.5;
+    color: white;
+}
+
+.item2 {
+  margin-left: 90px;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    flex: 1;
+}
+
+p {
+    margin-top: 10px;
+}
